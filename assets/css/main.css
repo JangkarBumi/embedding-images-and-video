@@ -7,9 +7,11 @@ body {
 }
 
 #navbar {
-  height: 30px;
+  height: 60px;
   width: 100%;
   position: fixed;
+  box-shadow: 0 4px 2px -2px gray;
+  background-color: white;
 }
 
 #navbar ul {
@@ -22,29 +24,54 @@ body {
 }
 
 #navbar ul li:nth-of-type(1) {
-  flex-grow: 1;
-  width: 20px;
+  padding-right: 20px;
 }
 #navbar ul li:nth-of-type(2) {
   flex-grow: 1;
   width: 20px;
 }
 #navbar ul li:nth-of-type(3) {
-  flex-grow: 3;
+  flex-grow: 2;
 }
 #navbar ul li:nth-of-type(4) {
-  flex-grow: 1;
+  width: 24px;
+  height: 24px;
+  padding-right: 200px;
 }
 #navbar ul li:nth-of-type(5) {
-  flex-grow: 1;
+  width: 24px;
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 30px;
 }
 #navbar ul li:nth-of-type(6) {
-  flex-grow: 1;
+  width: 24px;
+  height: 24px;
+  padding-right: 30px;
+}
+
+#navbar ul li:nth-of-type(7) {
+  width: 24px;
+  height: 24px;
+  padding-right: 30px;
+}
+
+#navbar ul li:nth-of-type(8) {
+  width: 24px;
+  height: 24px;
+  padding-right: 30px;
+}
+
+#navbar ul li:nth-of-type(9) {
+  width: 24px;
+  height: 24px;
+  padding-right: 30px;
 }
 
 #video {
   padding: 50px;
   padding-top: 100px;
+  width: 699px;
 }
 
 #video-info {
@@ -131,4 +158,14 @@ svg {
 
 #flex {
   display: flex;
+}
+
+#subscribe-button{
+    color:white;
+    background-color: red;
+    width: 145px;
+    height: 36px;
+    position: relative;
+    left: 400px;
+    bottom:40px;
 }
