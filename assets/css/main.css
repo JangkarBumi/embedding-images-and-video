@@ -1,13 +1,45 @@
-#sidebar {
-    height: 100%;
-    width: 25%;
-    margin-left: 0;
-    margin-top: 0;
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 #navbar {
-    height: 30px;
-    width: 100%;
-    position: fixed;
+  height: 30px;
+  width: 100%;
+  position: fixed;
 }
 
+#video {
+  padding: 50px;
+  padding-top: 100px;
+}
+
+#video-thumbnail {
+  height: 188px;
+  width: 336px;
+  padding: 10px;
+}
+
+#suggestion {
+  display: flex;
+  padding: 20px;
+}
+
+#suggestion-text {
+  display: flex;
+  flex-direction: column;
+}
+
+#svg {
+  width: 40px;
+  height: 40px;
+}
+
+#sidebar {
+  padding: 50px;
+  height: 100%;
+  width: 25%;
+  margin-left: 0;
+  margin-top: 0;
+}
