@@ -2,12 +2,22 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  list-style: none;
+  text-decoration: none;
 }
 
 #navbar {
   height: 30px;
   width: 100%;
   position: fixed;
+}
+
+#navbar ul {
+    display: flex
+}
+
+#navbar ul li{
+    list-style: none;
 }
 
 #video {
@@ -72,3 +82,33 @@ svg {
   padding-left: 0px;
   margin-left: 2px;
 }
+
+#more-button {
+  padding-left: 10px;
+}
+
+#channel-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+#channel-info {
+  display: flex;
+}
+
+#comments-section {
+  display: flex;
+}
+
+#comment-profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+
+#flex{
+    display: flex;
+}
+
