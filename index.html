@@ -11,6 +11,10 @@
       media="screen"
       href="assets/css/main.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
     <script src="main.js"></script>
   </head>
   <body>
@@ -214,189 +218,194 @@
             </g>
           </svg>
         </li>
-        <li><img id="img" style="border-radius: 50%;" alt="" height="32" width="32" src="https://yt3.ggpht.com/-kJGvl8WSKUo/AAAAAAAAAAI/AAAAAAAAAAA/1XhhXjHy_iU/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"></li>
+        <li>
+          <img
+            id="img"
+            style="border-radius: 50%;"
+            alt=""
+            height="32"
+            width="32"
+            src="https://yt3.ggpht.com/-kJGvl8WSKUo/AAAAAAAAAAI/AAAAAAAAAAA/1XhhXjHy_iU/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          />
+        </li>
         <li></li>
       </ul>
     </div>
+    <div id="video-container">
+      <div id="video">
+        <iframe
+          width="699"
+          height="393"
+          src="https://www.youtube.com/embed/ReVeUvwTGdU"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h1 id="main-video-title">3 years of Computer Science in 8 minutes</h1>
 
-    <div id="video">
-      <iframe
-        width="699"
-        height="393"
-        src="https://www.youtube.com/embed/ReVeUvwTGdU"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <h1 id="main-video-title">3 years of Computer Science in 8 minutes</h1>
+        <div id="video-info">
+          <p id="main-video-views">3,145,228 views</p>
+          <div id="likes">
+            <svg
+              id="like-svg"
+              viewBox="0 0 24 24"
+              preserveAspectRatio="xMidYMid meet"
+              focusable="false"
+              class="style-scope yt-icon"
+              style="pointer-events: none; display: block; width: 30px; height: 30px;"
+            >
+              <g class="style-scope yt-icon">
+                <path
+                  d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                  class="style-scope yt-icon"
+                ></path>
+              </g>
+            </svg>
+            <p id="likes-number">334343</p>
+          </div>
+          <div id="dislikes">
+            <svg
+              id="dislike-svg"
+              viewBox="0 0 24 24"
+              preserveAspectRatio="xMidYMid meet"
+              focusable="false"
+              class="style-scope yt-icon"
+              style="pointer-events: none; display: block; width: 30px; height: 30px;"
+            >
+              <g class="style-scope yt-icon">
+                <path
+                  d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                  class="style-scope yt-icon"
+                ></path>
+              </g>
+            </svg>
+            <p id="dislikes-number">2234</p>
+          </div>
+          <div id="share">
+            <svg
+              id="share-svg"
+              viewBox="0 0 24 24"
+              preserveAspectRatio="xMidYMid meet"
+              focusable="false"
+              class="style-scope yt-icon"
+              style="pointer-events: none; display: block; width: 30px; height: 30px;"
+            >
+              <g class="style-scope yt-icon">
+                <path
+                  d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"
+                  class="style-scope yt-icon"
+                ></path>
+              </g>
+            </svg>
+            <p id="share-button">Share</p>
+            <p id="more-button">More...</p>
+          </div>
+        </div>
 
-      <div id="video-info">
-        <p id="main-video-views">3,145,228 views</p>
-        <div id="likes">
+        <div id="channel-info">
+          <img
+            id="channel-photo"
+            src="https://yt3.ggpht.com/a-/AAuE7mBrO72-SYzEQh9Xnv5Yt8Lv5QHfs4SN8hEcQg=s176-mo-c-c0xffffffff-rj-k-no"
+            alt=""
+          />
+
+          <div id="middle-channel-container">
+            <p>Devon Crawford</p>
+            <button id="subscribe-button">SUBSCRIBE 125K</button>
+            <p>Published on Jul 24, 2018</p>
+
+            <p>
+              This is the most asked question on my channel by far so I thought
+              I'd explain how I learned programming. In the process I got a
+              little distracted and accidentally explained all of computer
+              science in 8 minutes (kind of).
+            </p>
+            <p>SHOW MORE</p>
+          </div>
+        </div>
+
+        <div id="comments-section">
+          <p>5,220 Comments</p>
           <svg
-            id="like-svg"
             viewBox="0 0 24 24"
             preserveAspectRatio="xMidYMid meet"
             focusable="false"
             class="style-scope yt-icon"
-            style="pointer-events: none; display: block; width: 30px; height: 30px;"
+            style="pointer-events: none; display: block; width: 24px; height: 24px;"
           >
             <g class="style-scope yt-icon">
               <path
-                d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"
+                class="style-scope yt-icon"
+              ></path>
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
                 class="style-scope yt-icon"
               ></path>
             </g>
           </svg>
-          <p id="likes-number">334343</p>
-        </div>
-        <div id="dislikes">
-          <svg
-            id="dislike-svg"
-            viewBox="0 0 24 24"
-            preserveAspectRatio="xMidYMid meet"
-            focusable="false"
-            class="style-scope yt-icon"
-            style="pointer-events: none; display: block; width: 30px; height: 30px;"
-          >
-            <g class="style-scope yt-icon">
-              <path
-                d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                class="style-scope yt-icon"
-              ></path>
-            </g>
-          </svg>
-          <p id="dislikes-number">2234</p>
-        </div>
-        <div id="share">
-          <svg
-            id="share-svg"
-            viewBox="0 0 24 24"
-            preserveAspectRatio="xMidYMid meet"
-            focusable="false"
-            class="style-scope yt-icon"
-            style="pointer-events: none; display: block; width: 30px; height: 30px;"
-          >
-            <g class="style-scope yt-icon">
-              <path
-                d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"
-                class="style-scope yt-icon"
-              ></path>
-            </g>
-          </svg>
-          <p id="share-button">Share</p>
-          <p id="more-button">More...</p>
-        </div>
-      </div>
 
-      <div id="channel-info">
-        <img
-          id="channel-photo"
-          src="https://yt3.ggpht.com/a-/AAuE7mBrO72-SYzEQh9Xnv5Yt8Lv5QHfs4SN8hEcQg=s176-mo-c-c0xffffffff-rj-k-no"
-          alt=""
-        />
+          <p>Sort By</p>
+        </div>
 
-        <div id="middle-channel-container">
-          <p>Devon Crawford</p>
-          <button id="subscribe-button">SUBSCRIBE 125K</button>
-          <p>Published on Jul 24, 2018</p>
-
+        <div id="everycomment">
+          <div id="flex">
+            <img
+              id="comment-profile"
+              src="https://yt3.ggpht.com/-DFTyfnCMOE8/AAAAAAAAAAI/AAAAAAAAAAA/y2NbEwHa0GA/s76-c-k-no-mo-rj-c0xffffff/photo.jpg"
+              alt=""
+            />
+            <p>Devon Crawford</p>
+            <p>7 monts ago</p>
+          </div>
           <p>
-            This is the most asked question on my channel by far so I thought
-            I'd explain how I learned programming. In the process I got a little
-            distracted and accidentally explained all of computer science in 8
-            minutes (kind of).
+            Maybe it was a bad idea to talk about code for 5 hours & try and
+            condense it into an 8 minute YouTube video.. *Disclaimer* this is
+            not a beginners tutorial and new programmers should not be
+            intimidated. I am simply trying to show how multiple layers of
+            technology integrate with eachother. Each minute of this video can
+            be broken down into months of learning. It's
           </p>
-          <p>SHOW MORE</p>
         </div>
 
-      
-      </div>
-
-      <div id="comments-section">
-        <p>5,220 Comments</p>
-        <svg
-          viewBox="0 0 24 24"
-          preserveAspectRatio="xMidYMid meet"
-          focusable="false"
-          class="style-scope yt-icon"
-          style="pointer-events: none; display: block; width: 24px; height: 24px;"
-        >
-          <g class="style-scope yt-icon">
-            <path
-              d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"
-              class="style-scope yt-icon"
-            ></path>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-              class="style-scope yt-icon"
-            ></path>
-          </g>
-        </svg>
-
-        <p>Sort By</p>
-      </div>
-
-      <div id="everycomment">
-        <div id="flex">
-          <img
-            id="comment-profile"
-            src="https://yt3.ggpht.com/-DFTyfnCMOE8/AAAAAAAAAAI/AAAAAAAAAAA/y2NbEwHa0GA/s76-c-k-no-mo-rj-c0xffffff/photo.jpg"
-            alt=""
-          />
-          <p>Devon Crawford</p>
-          <p>7 monts ago</p>
+        <div id="everycomment">
+          <div id="flex">
+            <img
+              id="img"
+              class="style-scope yt-img-shadow"
+              alt=""
+              width="168"
+              src="https://i.ytimg.com/vi/EwHVsh-Ml40/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAikIYAXAB&amp;rs=AOn4CLDpYnQrSaEWhXEvu-wIaegRfqbMSA"
+            />
+            <p>Regian</p>
+            <p>1 months ago</p>
+          </div>
+          <p>
+            instructions unclear, accidentally got employed at NASA
+          </p>
         </div>
-        <p>
-          Maybe it was a bad idea to talk about code for 5 hours & try and
-          condense it into an 8 minute YouTube video.. *Disclaimer* this is not
-          a beginners tutorial and new programmers should not be intimidated. I
-          am simply trying to show how multiple layers of technology integrate
-          with eachother. Each minute of this video can be broken down into
-          months of learning. It's
-        </p>
-      </div>
 
-      <div id="everycomment">
-        <div id="flex">
-          <img
-            id="comment-profile"
-            src="https://yt3.ggpht.com/-AEzPwBcU6nc/AAAAAAAAAAI/AAAAAAAAAAA/hRMj6jSk3MM/s76-c-k-no-mo-rj-c0xffffff/photo.jpg"
-            alt=""
-          />
-          <p>Regian</p>
-          <p>1 months ago</p>
+        <div id="everycomment">
+          <div id="flex">
+            <img
+              id="comment-profile"
+              src="https://yt3.ggpht.com/-b0b1hPezpYg/AAAAAAAAAAI/AAAAAAAAAAA/2rHgwmlTJEY/s76-c-k-no-mo-rj-c0xffffff/photo.jpg"
+              alt=""
+            />
+            <p>Hakim</p>
+            <p>1 week ago</p>
+          </div>
+          <p>
+            When i restart my router this is what my parents think I'm capable
+            of
+          </p>
         </div>
-        <p>
-          instructions unclear, accidentally got employed at NASA
-        </p>
-      </div>
-
-      <div id="everycomment">
-        <div id="flex">
-          <img
-            id="comment-profile"
-            src="https://yt3.ggpht.com/-b0b1hPezpYg/AAAAAAAAAAI/AAAAAAAAAAA/2rHgwmlTJEY/s76-c-k-no-mo-rj-c0xffffff/photo.jpg"
-            alt=""
-          />
-          <p>Hakim</p>
-          <p>1 week ago</p>
-        </div>
-        <p>
-          When i restart my router this is what my parents think I'm capable of
-        </p>
       </div>
     </div>
-
     <div id="sidebar">
       <div id="suggestion">
-        <img
-          id="video-thumbnail"
-          src="/assets/images/1.jpg"
-          height="42"
-          width="42"
-        />
+        <img id="video-thumbnail" src="/assets/images/1.jpg" />
         <div id="suggestion-text">
           <p id="video-title">random title 1</p>
           <p id="video-channel">ChannelName</p>
@@ -405,12 +414,7 @@
       </div>
 
       <div id="suggestion">
-        <img
-          id="video-thumbnail"
-          src="/assets/images/2.jpg"
-          height="42"
-          width="42"
-        />
+        <img id="video-thumbnail" src="/assets/images/2.jpg" />
         <div id="suggestion-text">
           <p id="video-title">random title 2</p>
           <p id="video-channel">ChannelName</p>
@@ -419,12 +423,7 @@
       </div>
 
       <div id="suggestion">
-        <img
-          id="video-thumbnail"
-          src="/assets/images/3.jpg"
-          height="42"
-          width="42"
-        />
+        <img id="video-thumbnail" src="/assets/images/3.jpg" />
         <div id="suggestion-text">
           <p id="video-title">random title 3</p>
           <p id="video-channel">ChannelName</p>
@@ -433,12 +432,7 @@
       </div>
 
       <div id="suggestion">
-        <img
-          id="video-thumbnail"
-          src="/assets/images/4.jpg"
-          height="42"
-          width="42"
-        />
+        <img id="video-thumbnail" src="/assets/images/4.jpg" />
         <div id="suggestion-text">
           <p id="video-title">random title 4</p>
           <p id="video-channel">ChannelName</p>
@@ -447,12 +441,7 @@
       </div>
 
       <div id="suggestion">
-        <img
-          id="video-thumbnail"
-          src="/assets/images/5.jpg"
-          height="42"
-          width="42"
-        />
+        <img id="video-thumbnail" src="/assets/images/5.jpg" />
         <div id="suggestion-text">
           <p id="video-title">random title 5</p>
           <p id="video-channel">ChannelName</p>
