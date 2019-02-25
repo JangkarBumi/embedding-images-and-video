@@ -13,6 +13,7 @@ body {
   position: fixed;
   box-shadow: 0 4px 2px -2px gray;
   background-color: white;
+  z-index: 999;
 }
 
 #navbar ul {
@@ -70,27 +71,24 @@ body {
 }
 
 #video-container {
-  padding: 50px;
-  padding-top: 100px;
-  width: 1000px;
-  margin: 0 auto;
+  width: 800px;
+  padding: 40px;
 }
 
 #video {
   padding: 50px;
-  padding-top: 100px;
-  width: 1000px;
+  width: 700px;
 }
-font-family: "Roboto", sans-serif;
+
 #video-info {
   display: flex;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
 }
 
 #video-thumbnail {
   width: 168px;
-  height: 140px;
+  height: 100%;
   padding: 2px;
 }
 
@@ -118,13 +116,10 @@ svg {
 }
 
 #sidebar {
-  flex: 30%;
-  padding: 50px;
-  padding-left: 10px;
   height: 100%;
-  width: 25%;
-  margin-left: 0;
-  margin-top: 0;
+  padding: 40px;
+  padding-left: 0;
+  padding-top: 70px;
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
@@ -203,6 +198,43 @@ svg {
   width: 145px;
   height: 36px;
   position: relative;
-  left: 400px;
+  left: 500px;
   bottom: 40px;
+}
+
+#frame-video {
+  padding: 0;
+  margin: 0;
+}
+
+#main-video-views {
+  padding-right: 270px;
+}
+
+#likes-number {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+#dislikes-number {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+#share-button {
+  padding-left: 10px;
+}
+
+#comment-text {
+  padding-right: 20px;
+}
+
+#comment-sort-text {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#sort-svg{
+position: relative;
+top:10px;
 }
