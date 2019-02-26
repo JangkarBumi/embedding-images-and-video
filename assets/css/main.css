@@ -230,6 +230,9 @@ svg {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: lighter;
+  position: relative;
+  bottom:-7px;
+  padding-left: 20px;
 }
 
 #comment {
