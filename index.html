@@ -142,7 +142,7 @@
               preserveAspectRatio="xMidYMid meet"
               focusable="false"
               class="style-scope yt-icon"
-              style="pointer-events: none; display: block; width: 20px; height:20px;"
+              style="pointer-events: none; display: block; width: 20px; height:26px;"
             >
               <g class="style-scope yt-icon">
                 <path
@@ -233,7 +233,8 @@
     </div>
     <div id="video-container">
       <div id="video">
-        <iframe id="frame-video"
+        <iframe
+          id="frame-video"
           width="699"
           height="393"
           src="https://www.youtube.com/embed/ReVeUvwTGdU"
@@ -310,11 +311,11 @@
           />
 
           <div id="middle-channel-container">
-            <p>Devon Crawford</p>
-            <button id="subscribe-button">SUBSCRIBE 125K</button>
-            <p>Published on Jul 24, 2018</p>
+            <p id="channel-name">Devon Crawford</p>
 
-            <p>
+            <p id="date-published">Published on Jul 24, 2018</p>
+            <button id="subscribe-button">SUBSCRIBE 125K</button>
+            <p id="video-summary">
               This is the most asked question on my channel by far so I thought
               I'd explain how I learned programming. In the process I got a
               little distracted and accidentally explained all of computer
@@ -326,7 +327,8 @@
 
         <div id="comments-section">
           <p id="comment-text">5,220 Comments</p>
-          <svg id="sort-svg"
+          <svg
+            id="sort-svg"
             viewBox="0 0 24 24"
             preserveAspectRatio="xMidYMid meet"
             focusable="false"
@@ -346,7 +348,7 @@
             </g>
           </svg>
 
-          <p  id="comment-sort-text">Sort By</p>
+          <p id="comment-sort-text">Sort By</p>
         </div>
 
         <div id="everycomment">
@@ -357,9 +359,9 @@
               alt=""
             />
             <p>Devon Crawford</p>
-            <p>7 monts ago</p>
+            <p id="comment-date">7 monts ago</p>
           </div>
-          <p>
+          <p id="comment">
             Maybe it was a bad idea to talk about code for 5 hours & try and
             condense it into an 8 minute YouTube video.. *Disclaimer* this is
             not a beginners tutorial and new programmers should not be
@@ -372,13 +374,13 @@
         <div id="everycomment">
           <div id="flex">
             <img
-            id="comment-profile"
+              id="comment-profile"
               src="https://yt3.ggpht.com/-AEzPwBcU6nc/AAAAAAAAAAI/AAAAAAAAAAA/hRMj6jSk3MM/s76-c-k-no-mo-rj-c0xffffff/photo.jpg"
             />
             <p>Regian</p>
-            <p>1 months ago</p>
+            <p id="comment-date">1 months ago</p>
           </div>
-          <p>
+          <p id="comment">
             instructions unclear, accidentally got employed at NASA
           </p>
         </div>
@@ -391,9 +393,9 @@
               alt=""
             />
             <p>Hakim</p>
-            <p>1 week ago</p>
+            <p id="comment-date">1 week ago</p>
           </div>
-          <p>
+          <p id="comment">
             When i restart my router this is what my parents think I'm capable
             of
           </p>
@@ -402,10 +404,16 @@
     </div>
     <div id="sidebar">
       <div id="suggestion">
-        <img id="video-thumbnail" src="https://i.ytimg.com/vi/-W_VsLXmjJU/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCsC_7HAro4rDiPQictI7qORwpq7w" />
+        <img
+          id="video-thumbnail"
+          src="https://i.ytimg.com/vi/-W_VsLXmjJU/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCsC_7HAro4rDiPQictI7qORwpq7w"
+        />
         <div id="suggestion-text">
-          <p id="video-title">random title 1</p>
-          <p id="video-channel">ChannelName</p>
+          <p id="video-title">
+            Outer Space Invader Pawn in the French | AI Leela Chess Zero vs
+            Stockfish
+          </p>
+          <p id="video-channel">ChessNetwork</p>
           <p id="video-views">122K</p>
         </div>
       </div>
@@ -413,8 +421,8 @@
       <div id="suggestion">
         <img id="video-thumbnail" src="/assets/images/2.jpg" />
         <div id="suggestion-text">
-          <p id="video-title">random title 2</p>
-          <p id="video-channel">ChannelName</p>
+          <p id="video-title">Bullet Arena Speed Chess Tournament [223]</p>
+          <p id="video-channel">ChessNetwork</p>
           <p id="video-views">122K</p>
         </div>
       </div>
@@ -422,26 +430,29 @@
       <div id="suggestion">
         <img id="video-thumbnail" src="/assets/images/3.jpg" />
         <div id="suggestion-text">
-          <p id="video-title">random title 3</p>
-          <p id="video-channel">ChannelName</p>
+          <p id="video-title">Winning Quickly With Opening Traps and Tricks</p>
+          <p id="video-channel">Eric Rosen</p>
           <p id="video-views">122K</p>
         </div>
       </div>
 
       <div id="suggestion">
-        <img id="video-thumbnail" src="/assets/images/4.jpg" />
+        <img id="video-thumbnail" src="/assets/images/6.jpg" />
         <div id="suggestion-text">
-          <p id="video-title">random title 4</p>
-          <p id="video-channel">ChannelName</p>
+          <p id="video-title">
+            Squeezing Water from Stone | Magnus Carlsen Shows Why He's The Best
+            | WRC | Round 12
+          </p>
+          <p id="video-channel">agadmator's Chess Channel</p>
           <p id="video-views">122K</p>
         </div>
       </div>
 
       <div id="suggestion">
-        <img id="video-thumbnail" src="/assets/images/5.jpg" />
+        <img id="video-thumbnail" src="/assets/images/7.jpg" />
         <div id="suggestion-text">
-          <p id="video-title">random title 5</p>
-          <p id="video-channel">ChannelName</p>
+          <p id="video-title">Mouth-Peeing and 5 Other Extreme Turtle Traits</p>
+          <p id="video-channel">SchiShow</p>
           <p id="video-views">122K</p>
         </div>
       </div>
