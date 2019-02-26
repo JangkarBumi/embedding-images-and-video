@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+#navbar {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 1px 1px -1px gray;
+  background-color: white;
+  z-index: 999;
+}
+
+input {
+  height: 26px;
+  padding-left: 10px;
+}
+
+#search-button {
+  height: 26px;
+  margin: 20x;
+  font-size: 18px;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+  width: 20px;
+}
+
+#navbar ul li:nth-of-type(1) {
+  padding-right: 20px;
+}
+#navbar ul li:nth-of-type(2) {
+  flex-grow: 1;
+  width: 20px;
+}
+#navbar ul li:nth-of-type(3) {
+  flex-grow: 2;
+}
+#navbar ul li:nth-of-type(4) {
+  width: 24px;
+  height: 24px;
+  padding-right: 200px;
+}
+#navbar ul li:nth-of-type(5) {
+  width: 24px;
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+#navbar ul li:nth-of-type(6) {
+  width: 24px;
+  height: 24px;
+  padding-right: 30px;
+}
+
+#navbar ul li:nth-of-type(7) {
+  width: 24px;
+  height: 24px;
+  padding-right: 30px;
+}
+
+#navbar ul li:nth-of-type(8) {
+  width: 24px;
+  height: 24px;
+  padding-right: 30px;
+}
+
+#navbar ul li:nth-of-type(9) {
+  width: 24px;
+  height: 24px;
+  padding-right: 30px;
+}
+
+#video-container {
+  width: 800px;
+  padding: 40px;
+}
+
+#video {
+  padding-top: 60px;
+  width: 700px;
+}
+
+#video-info {
+  margin-top: -5px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+#video-thumbnail {
+  width: 168px;
+  height: 100%;
+  padding: 2px;
+}
+
+#video-thumbnail:first-child {
+  padding-top: 20px;
+}
+
+svg {
+  fill: gray;
+}
+
+#suggestion {
+  display: flex;
+  padding: 10px;
+}
+
+#suggestion-text {
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+}
+
+#svg {
+  width: 40px;
+  height: 40px;
+}
+
+#sidebar {
+  height: 100%;
+  padding: 40px;
+  padding-left: 0;
+  padding-top: 70px;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  right: 20px;
+}
+
+#video-title {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+#video-channel {
+  font-size: 12px;
+  font-weight: 400;
+  color: grey;
+  padding-left: 5px;
+  margin-top: -8px;
+}
+
+#video-views {
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 5px;
+  margin-top: -8px;
+}
+
+#likes,
+#dislikes,
+#share {
+  display: flex;
+}
+
+#likes-svg {
+  padding-left: 20px;
+  margin-right: 20px;
+}
+#dislike-svg {
+  padding-left: 10px;
+  margin-left: 2px;
+}
+#share-svg {
+  padding-left: 0px;
+  margin-left: 2px;
+}
+
+#more-button {
+  padding-left: 10px;
+}
+
+#channel-photo {
+  margin-top: 9px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  padding-right: 7px;
+}
+
+#channel-name {
+  font-size: 16px;
+}
+
+#date-published {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin-top: -17px;
+  font-weight: lighter;
+}
+
+#video-summary {
+  margin-top: -20px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+#channel-info {
+  display: flex;
+}
+
+#comments-section {
+  display: flex;
+}
+
+#comment-profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  padding-right: 7px;
+}
+
+#comment-date {
+  display: table-cell;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  position: relative;
+  bottom:-7px;
+  padding-left: 20px;
+}
+
+#comment {
+  padding-left: 55px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+#flex {
+  display: flex;
+}
+
+#subscribe-button {
+  color: white;
+  background-color: red;
+  width: 145px;
+  height: 36px;
+  position: relative;
+  left: 500px;
+  bottom: 40px;
+}
+
+#frame-video {
+  padding: 0;
+  margin: 0;
+}
+
+#main-video-title {
+  font-size: 18px;
+}
+
+#main-video-views {
+  padding-right: 270px;
+}
+
+#likes-number {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+#dislikes-number {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+#share-button {
+  padding-left: 10px;
+}
+
+#comment-text {
+  padding-right: 20px;
+}
+
+#comment-sort-text {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#sort-svg {
+  position: relative;
+  top: 10px;
+}
