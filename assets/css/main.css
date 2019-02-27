@@ -98,7 +98,7 @@ input {
   font-size: 13px;
 }
 
-#video-thumbnail {
+.video-thumbnail {
   width: 168px;
   height: 100%;
   padding: 2px;
@@ -112,12 +112,12 @@ svg {
   fill: gray;
 }
 
-#suggestion {
+.suggestion {
   display: flex;
   padding: 10px;
 }
 
-#suggestion-text {
+.suggestion-text {
   display: flex;
   flex-direction: column;
   height: 20px;
@@ -132,21 +132,21 @@ svg {
   height: 100%;
   padding: 40px;
   padding-left: 0;
-  padding-top: 70px;
+  padding-top: 90px;
   font-size: 14px;
   font-weight: 500;
   position: relative;
   right: 20px;
 }
 
-#video-title {
+.video-title {
   font-size: 14px;
   font-weight: 600;
   padding-top: 5px;
   padding-left: 5px;
 }
 
-#video-channel {
+.video-channel {
   font-size: 12px;
   font-weight: 400;
   color: grey;
@@ -154,7 +154,7 @@ svg {
   margin-top: -8px;
 }
 
-#video-views {
+.video-views {
   font-size: 12px;
   font-weight: 400;
   padding-left: 5px;
@@ -218,14 +218,14 @@ svg {
   display: flex;
 }
 
-#comment-profile {
+.comment-profile {
   width: 48px;
   height: 48px;
   border-radius: 50%;
   padding-right: 7px;
 }
 
-#comment-date {
+.comment-date {
   display: table-cell;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
@@ -235,14 +235,14 @@ svg {
   padding-left: 20px;
 }
 
-#comment {
+.comment {
   padding-left: 55px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
 }
 
-#flex {
+.flex {
   display: flex;
 }
 
